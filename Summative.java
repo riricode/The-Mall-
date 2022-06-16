@@ -67,7 +67,7 @@ public class TheMall
     }
 
 
-    public static void remaining ()
+    public static void remaining () //PROBLEM HERE we want to repeat this code for the 3 programs, so we used if else statements for the different food options to be renewed but it doesn't work. We don't want to make 3 different methods for each program since it will be too big and disorganized.
     {
 	remaining = budget - total;
 	if (remaining >= 0)
@@ -235,7 +235,8 @@ public class TheMall
     }
 
 
-    public static void checkout ()
+    public static void checkout () //PROBLEM HERE we want to repeat this code for the 3 programs, so we used if else statements for the different food options to be renewed but it doesn't work. We don't want to make 3 different methods for each program since it will be too big and disorganized.
+    {
     {
 
 	c.println ();
@@ -291,7 +292,7 @@ public class TheMall
 	}
     }
 
-
+ALL THIS IS COMMENTED OUT 
     /*public static void optionForAC ()
     {
 	checkout ();
@@ -355,7 +356,7 @@ public class TheMall
 	}
     }
 
-    */
+    */ ALL THIS IS COMMENTED OUT 
 
     public static void change ()
     {
